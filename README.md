@@ -1,0 +1,1 @@
+documentation for [sci](https://github.com/AndroidLollipop/sci), a programming language created for fun
