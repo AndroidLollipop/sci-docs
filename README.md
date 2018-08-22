@@ -17,6 +17,10 @@ output:
 { type: 'number', value: 3 }  
 { type: 'number', value: 4 }  
   
-clo accesses the variable skye which is in the scope of its parent, which is no longer accessible as it has returned. this is called a closure.
+clo accesses the variable skye which is in the scope of its parent, which is no longer accessible as it has returned. this is called a closure.  
+  
+in sci, each function can access the scope it is created in and the parameters it is passed, no more, no less.  
+setting undeclared variables makes them global.  
+what else is there to say?
 ### standard features
 sci supports many of the features you'd expect from any programming language, like arrays, loops, and conditionals (these haven't been implemented completely yet but will be very soon) (i focused on implementing functions and scoping first)
