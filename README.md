@@ -1,5 +1,5 @@
 # documentation for [sci](https://github.com/AndroidLollipop/sci), a programming language created for fun
-[https://github.com/AndroidLollipop/sci]
+https://github.com/AndroidLollipop/sci
 ## features
 ### functions and closures
 functions are first-class citizens in sci. this means that you can pass functions as parameters to other functions and return functions from functions.  
