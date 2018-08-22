@@ -17,4 +17,4 @@ output:
 { type: 'number', value: 3 }  
 { type: 'number', value: 4 }  
   
-clo accesses the variable skye which is in the scope of its parent, which is no longer accessible as it has returned. this is called a closures.
+clo accesses the variable skye which is in the scope of its parent, which is no longer accessible as it has returned. this is called a closure.
