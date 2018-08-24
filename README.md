@@ -22,6 +22,16 @@ clo accesses the variable skye which is in the scope of its parent, which is no 
   
 in sci, each function can access the scope it is created in and the parameters it is passed, no more, no less.  
 setting undeclared variables makes them global.  
-what else is there to say?
+  
+example:  
+var e = require("./simpleAndCleanInterfaceForRepl.js")  
+var repl = e.getRepl()  
+console.log(repl("num slowFibonacci(n){if(n < 3){return 1};return slowFibonacci(n-1)+slowFibonacci(n-2)}"))  
+console.log(repl("slowFibonacci(10)"))  
+  
+output:  
+{ type: 'number', value: 55 }  
+this is a classic but very slow recursive function.  
+i haven't implemented arrays completely yet, so we can't use memoization yet.
 ### standard features
 sci supports many of the features you'd expect from any programming language, like arrays, loops, and conditionals (these haven't been implemented completely yet but will be very soon) (i focused on implementing functions and scoping first)
