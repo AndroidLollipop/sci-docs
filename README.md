@@ -34,4 +34,4 @@ output:
 this is a classic but very slow recursive function.  
 i haven't implemented arrays completely yet, so we can't use memoization yet.
 ### standard features
-sci supports many of the features you'd expect from any programming language, like arrays, loops, and conditionals (these haven't been implemented completely yet but will be very soon) (i focused on implementing functions and scoping first)
+sci supports many of the features you'd expect from any programming language, like arrays, loops, and conditionals. for function calls, array literals, and array lookups, everything is evaluated from left to right (this matters since evaluating functions can cause side effects). for array assignments, however, the assigned value is evaluated before the array index.
