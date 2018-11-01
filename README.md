@@ -31,7 +31,6 @@ console.log(repl("slowFibonacci(10)"))
   
 output:  
 { type: 'number', value: 55 }  
-this is a classic but very slow recursive function.  
-i haven't implemented arrays completely yet, so we can't use memoization yet.
+this is a classic but very slow recursive function.
 ### standard features
 sci supports many of the features you'd expect from any programming language, like arrays, loops, and conditionals. for function calls, array literals, and array lookups, everything is evaluated from left to right (this matters since evaluating functions can cause side effects). for array assignments, however, the assigned value is evaluated before the array index.
